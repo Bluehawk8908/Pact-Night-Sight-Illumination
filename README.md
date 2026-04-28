@@ -6,5 +6,5 @@ Melonloader is required, simply place the DLL file into the /Mods/ folder.
 
 **Changelog**  
 1.0.0 - Base release  
-1.0.1 - Hotfix
+1.0.1 - Hotfix  
 1.0.2 - Compatibility fix for ["Pact Increased Lethality"](https://github.com/thebeninator/Pact-Increased-Lethality) mod.
