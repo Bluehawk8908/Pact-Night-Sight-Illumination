@@ -46,6 +46,7 @@ namespace PactNightSightIllumination
                 FireControlSystem fcs = vic.WeaponsManager.Weapons[0].FCS;
                 if (fcs.NightOptic == null) { continue; }                
                 UsableOptic nightOptic = fcs.NightOptic;
+                if (nightOptic.reticleMesh == null) { continue; }
                 ReticleMesh nightRetMesh = nightOptic.reticleMesh;
                 if (nightRetMesh.reticleSO.name != "T55-NVS") { continue; }
                 ReticleTree.Light light = new ReticleTree.Light();
